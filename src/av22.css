@@ -1,0 +1,47 @@
+.inv{
+	display: none;
+}
+.visi{
+	display: all;
+}
+body{
+  width: auto;
+  height: auto;
+  position: relative;
+  background: url(../img/leao.jpeg);
+  background-size: cover;
+}
+#leao{
+	color: white;
+	font-size: 1vw;
+	padding-left: 30rem;
+	padding-right: 30rem;
+	margin-top: 12.5rem;
+
+}
+legend{
+	font-size: 1.05rem;
+	font-weight: bold;
+}
+p{
+	font-size: 1.15rem;
+	color: white;
+}
+input{
+	padding: 0.5rem;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 20px;
+	font-family: serif;
+}
+button{
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	text-align: center;
+}
+#fim{
+	color: white;
+}
+#result{
+	font-size: 1.15rem;
+	font-weight: medium;
+}

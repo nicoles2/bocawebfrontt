@@ -1,0 +1,71 @@
+.container{
+  max-width: 1200px;
+  
+  margin:0 auto;
+  min-height:100vh;
+  background-color: lightblue; 
+  padding: 30px;
+ 
+}
+.cabecalho{
+  text-align: center;
+  font-style: italic;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  width: 800px;
+  margin:20px auto;
+}
+
+.busca input {
+  background-color: transparent;
+  padding: 0.5rem;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+.busca{
+  text-align: center;
+  margin: 25px;
+}
+
+.lista{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1.5fr));
+  gap:40px;
+  background-color: ;
+  text-align: center;
+
+}
+.lista {
+  color: white;
+}
+objeto:hover{
+  transform:scale(1.05)
+}
+.objeto {
+  background-color: rgb(20, 20, 20);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.objeto-content{
+  
+}
+
+.rodape{
+  margin-top: 25px;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 30px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  border-radius: 20px;
+  width: 800px;
+  margin:20px auto;
+}
